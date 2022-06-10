@@ -11,6 +11,8 @@
 
     "types" : ["node"],
     "baseUrl": ".",
+    "tsx": "react",
+    "allowSyntheticDefaultImports": true,
     "paths": {
       "#preload": [
         "../preload/src/index"
@@ -23,7 +25,6 @@
   },
 
   "include": [
-    "src/**/*.vue",
     "src/**/*.ts",
     "src/**/*.tsx",
     "types/**/*.d.ts",
